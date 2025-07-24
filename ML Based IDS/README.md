@@ -63,6 +63,19 @@ This ensemble reduces overfitting and increases generalization across unseen att
 
 ### 1️⃣ Clone the Repository
 
+## 📦 Installation
+
 ```bash
-git clone https://github.com/yourusername/ml-ids-stacking-ensemble.git
-cd ml-ids-stacking-ensemble
+# 1. Clone the repository
+git clone https://github.com/Tauseefmalikk/ML-IDS-Stacking-Ensemble.git
+cd ML-IDS-Stacking-Ensemble
+
+# 2. Create virtual environment (optional)
+python -m venv venv
+source venv/bin/activate  # or venv\Scripts\activate on Windows
+
+# 3. Install required packages
+pip install -r requirements.txt
+
+# 4. Run the Streamlit app
+streamlit run app.py
